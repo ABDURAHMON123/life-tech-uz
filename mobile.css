@@ -1,0 +1,335 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 956px) {
+    .container {
+        padding: 0 20px;
+    }
+    ul li a {
+        font-size: 17px;
+    }
+    .header__slider {
+        margin-top: 20px
+    }
+    .header__texts h3 {
+        font-size: 40px;
+        line-height: 70px;
+        padding-bottom: 10px;
+    }
+    .header__texts p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 955.99px) and (min-width: 756px) {
+    .container {
+        padding: 0 20px;
+    }
+    .register {
+        height: 100vh;
+        top: 0;
+    }
+    ul li a {
+        font-size: 15px;
+    }
+    .header__slider {
+        margin-top: 20px
+    }
+    .header__texts h3 {
+        font-size: 33px;
+        line-height: 63px;
+        padding-bottom: 10px;
+    }
+    .header__texts p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 755.99px) and (min-width: 512px) {
+    .container {
+        padding: 0 20px;
+    }
+    .register {
+        height: 100vh;
+        top: 0;
+    }
+    .header {
+        height: 550px;
+    }
+    ul {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 35px;
+        color: white
+    }
+    .fa-bars:hover {
+        color: rgb(196, 196, 196);
+    }
+    ul li a {
+        font-size: 15px;
+    }
+    .mobile__bars {
+        display: flex;
+        transition: .5s ease;
+        transform: translateX(100%);
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        position: absolute;
+        position: fixed;
+        border-radius: 10px 0;
+        width: 500px;
+        height: 100vh;
+        background-color: whitesmoke;
+        background: url(images/Life\ tech\ mobile\ backround.png), whitesmoke;
+        background-position: center;
+        background-size: cover;
+        z-index: 1000;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .mobile__img {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px 10px 20px;
+    }
+    .mobile__img img {
+        width: 100px;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+    .mobile__img h1 {
+        font-size: 40px;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+    }
+    .fa-close {
+        color: red;
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .fa-close:hover {
+        color: black;
+        cursor: pointer;
+    }
+    .mobile__text {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .mobile__text a {
+        color: black;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .mobile__text a:hover {
+        color: red;
+    }
+    .mobile__footer {
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 250px;
+    }
+    .mobile__footer h2 {
+        font-size: 35px;
+        padding: 10px 0 20px 0;
+        font-weight: 900;
+    }
+    .mobile__footer h1 {
+        font-size: 40px;
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: red;
+        padding-bottom: 10px;
+    }
+    .mobile__footer h3 {
+        font-size: 20px;
+        color: rgb(54, 54, 54);
+    }
+    .header__slider {
+        margin-top: 20px
+    }
+    .header__texts {
+        width: 500px;
+    }
+    .header__texts h3 {
+        font-size: 23px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    .header__texts p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .header__texts span {
+        width: 200px;
+        font-size: 20px;
+        margin: 20px 0 0 0;
+    }
+    .header__img {
+        position: absolute;
+        right: 0;
+        top: 36%;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 511.99px) and (min-width: 300px) {
+    .container {
+        padding: 0 20px;
+    }
+    .register {
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+    .register__info h2 {
+        font-size: 20px;
+    }
+    .register__info p {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    .register__input #input {
+        width: 280px;
+    }
+    .register a {
+        width: 60%;
+        height: 40px;
+    }
+    .register__img {
+        margin-top: 20px;
+    }
+    .header {
+        height: 800px;
+    }
+    ul {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 35px;
+        color: white
+    }
+    .fa-bars:hover {
+        color: rgb(196, 196, 196);
+    }
+    ul li a {
+        font-size: 15px;
+    }
+    .mobile__bars {
+        display: flex;
+        transition: .5s ease;
+        transform: translateX(100%);
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        position: absolute;
+        position: fixed;
+        border-radius: 10px 0;
+        width: 100%;
+        height: 100vh;
+        background-color: whitesmoke;
+        background: url(images/Life\ tech\ mobile\ backround.png), whitesmoke;
+        background-position: center;
+        background-size: cover;
+    }
+    .mobile__img {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px 10px 20px;
+    }
+    .mobile__img img {
+        width: 60px;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+    .mobile__img h1 {
+        font-size: 30px;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+    }
+    .fa-close {
+        color: red;
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .fa-close:hover {
+        color: black;
+        cursor: pointer;
+    }
+    .mobile__text {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .mobile__text a {
+        color: black;
+        padding-left: 20px;
+        font-size: 13px;
+    }
+    .mobile__text a:hover {
+        color: red;
+    }
+    .mobile__footer {
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 250px;
+    }
+    .mobile__footer h2 {
+        font-size: 27px;
+        padding: 10px 0 20px 0;
+        font-weight: 900;
+    }
+    .mobile__footer h1 {
+        font-size: 30px;
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: red;
+        padding-bottom: 10px;
+    }
+    .mobile__footer h3 {
+        font-size: 17px;
+        color: rgb(54, 54, 54);
+    }
+    .header__slider {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .header__texts {
+        width: 100%;
+    }
+    .header__texts h3 {
+        font-size: 18px;
+        line-height: 40px;
+        padding-bottom: 7px;
+    }
+    .header__texts p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .header__texts span {
+        width: 170px;
+        text-align: center;
+        font-size: 17px;
+        padding: 7px;
+        margin: 20px 0 20px 0;
+    }
+}
