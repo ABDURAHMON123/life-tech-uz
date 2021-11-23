@@ -264,3 +264,127 @@ ul li a:hover {
 .header__img img {
     width: 100%;
 }
+
+
+/* kursturlari */
+
+.kursturlari {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.kursturlari__text h1 {
+    font-family: Poppins;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.kursturlari__blocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.kursturlari__1,
+.kursturlari__2 {
+    width: 45%;
+    height: 350px;
+    background-color: #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.kursturlari__1hover:hover,
+.kursturlari__2hover:hover {
+    opacity: 1;
+}
+
+.kursturlari__blocks img {
+    width: 150px;
+    margin-top: 30px;
+}
+
+.kurs__text h2 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 10px;
+    border-bottom: 2px solid black;
+}
+
+.kurs__text p {
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-left: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0F1F1C;
+}
+
+.kursturlari__1hover {
+    width: 45%;
+    height: 350px;
+    background-color: #ff1100;
+    transition: .5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+}
+
+.kursturlari__2hover {
+    width: 45%;
+    height: 350px;
+    background-color: #ff1100;
+    transition: .5s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.kursturlari__1hover img,
+.kursturlari__2hover img {
+    width: 150px;
+}
+
+.kursturlari__1hover span,
+.kursturlari__2hover span {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-left: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-top: 18px;
+}

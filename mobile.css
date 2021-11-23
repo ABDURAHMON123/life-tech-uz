@@ -22,6 +22,32 @@
     .header__texts p {
         font-size: 17px;
     }
+    /* kursturlari */
+    .kursturlari__text h1 {
+        font-size: 58px;
+    }
+    .kursturlari__blocks img {
+        width: 130px;
+    }
+    .kurs__text {
+        margin-top: 15px;
+    }
+    .kurs__text h2 {
+        font-size: 35px;
+    }
+    .kurs__text p {
+        font-size: 14px;
+    }
+    .kursturlari__1hover {
+        left: 25px;
+    }
+    .kursturlari__2hover {
+        right: 25px;
+    }
+    .kursturlari__1hover span {
+        padding-top: 0;
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 955.99px) and (min-width: 756px) {
@@ -45,6 +71,39 @@
     }
     .header__texts p {
         font-size: 14px;
+    }
+    /* kursturlari */
+    .kursturlari__1,
+    .kursturlari__2 {
+        height: 330px;
+    }
+    .kursturlari__text h1 {
+        font-size: 50px;
+    }
+    .kursturlari__blocks img {
+        width: 100px;
+    }
+    .kurs__text {
+        margin-top: 15px;
+    }
+    .kurs__text h2 {
+        font-size: 35px;
+    }
+    .kurs__text p {
+        font-size: 14px;
+    }
+    .kursturlari__1hover {
+        left: 20px;
+        height: 330px;
+    }
+    .kursturlari__2hover {
+        right: 20px;
+        height: 330px;
+    }
+    .kursturlari__1hover span {
+        padding-top: 0;
+        font-size: 12px;
+        line-height: 25px;
     }
 }
 
@@ -181,6 +240,41 @@
         right: 0;
         top: 36%;
         width: 250px;
+    }
+    /* kursturlari */
+    .kursturlari__text {
+        margin-top: 50px;
+    }
+    .kursturlari__blocks {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .kursturlari__1,
+    .kursturlari__2 {
+        width: 80%;
+        height: 330px;
+        margin-bottom: 20px;
+    }
+    .kursturlari__text h1 {
+        font-size: 40px;
+    }
+    .kursturlari__blocks img {
+        width: 100px;
+    }
+    .kurs__text {
+        margin-top: 15px;
+    }
+    .kurs__text h2 {
+        font-size: 35px;
+    }
+    .kurs__text p {
+        font-size: 14px;
+    }
+    .kursturlari__1hover {
+        display: none;
+    }
+    .kursturlari__2hover {
+        display: none;
     }
 }
 
@@ -331,5 +425,44 @@
         font-size: 17px;
         padding: 7px;
         margin: 20px 0 20px 0;
+    }
+    /* kursturlari */
+    .kursturlari {
+        margin-top: 100px;
+    }
+    .kursturlari__text {
+        margin-top: 0px;
+    }
+    .kursturlari__blocks {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .kursturlari__1,
+    .kursturlari__2 {
+        width: 80%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .kursturlari__text h1 {
+        font-size: 23px;
+    }
+    .kursturlari__blocks img {
+        width: 60px;
+    }
+    .kurs__text {
+        margin-top: 15px;
+    }
+    .kurs__text h2 {
+        font-size: 25px;
+    }
+    .kurs__text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .kursturlari__1hover {
+        display: none;
+    }
+    .kursturlari__2hover {
+        display: none;
     }
 }
