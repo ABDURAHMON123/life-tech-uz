@@ -48,6 +48,93 @@
         padding-top: 0;
         font-size: 13px;
     }
+    /* yonalish turlari */
+    .yonalishlar__texts h1 {
+        font-size: 37px;
+    }
+    .yonalish__turlari__blocks {
+        margin: 0;
+    }
+    .yonalish__savodxon,
+    .yonalish__dizayn,
+    .yonalish__frontend,
+    .yonalish__backend,
+    .yonalish__java,
+    .yonalish__robo {
+        width: 430px;
+    }
+    .savodxon__textlogo {
+        width: 370px;
+    }
+    .savodxon__textlogo .savodxon__textlogo__savodxon img {
+        width: 70px;
+    }
+    .savodxon__text h3 {
+        font-size: 27px;
+    }
+    .savodxon__text p {
+        font-size: 13px;
+    }
+    .dizayn__textlogo {
+        width: 370px;
+    }
+    .dizayn__textlogo .dizayn__textlogo__dizayn img {
+        width: 80px;
+    }
+    .dizayn__text h3 {
+        font-size: 27px;
+    }
+    .dizayn__text p {
+        font-size: 13px;
+    }
+    .frontend__textlogo {
+        width: 370px;
+    }
+    .frontend__textlogo .frontend__textlogo__frontend img {
+        width: 80px;
+    }
+    .frontend__text h3 {
+        font-size: 27px;
+    }
+    .frontend__text p {
+        font-size: 13px;
+    }
+    .backend__textlogo {
+        width: 370px;
+    }
+    .backend__textlogo .backend__textlogo__backend img {
+        width: 70px;
+    }
+    .backend__text h3 {
+        font-size: 27px;
+    }
+    .backend__text p {
+        font-size: 13px;
+    }
+    .java__textlogo {
+        width: 370px;
+    }
+    .java__textlogo .java__textlogo__java img {
+        width: 80px;
+    }
+    .java__text h3 {
+        font-size: 27px;
+    }
+    .java__text p {
+        font-size: 13px;
+    }
+    .robo__textlogo {
+        width: 370px;
+    }
+    .robo__textlogo .robo__textlogo__robo img {
+        width: 80px;
+    }
+    .robo__text h3 {
+        font-size: 27px;
+    }
+    .robo__text p {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 955.99px) and (min-width: 756px) {
@@ -104,6 +191,196 @@
         padding-top: 0;
         font-size: 12px;
         line-height: 25px;
+    }
+    /* yonalish turlari */
+    .yonalishlar__texts h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .yonalish__turlari__blocks {
+        margin: 10px;
+    }
+    .yonalish__savodxon,
+    .yonalish__dizayn,
+    .yonalish__frontend,
+    .yonalish__backend,
+    .yonalish__java,
+    .yonalish__robo {
+        width: 340px;
+        height: 220px;
+        margin: 10px 0;
+    }
+    .savodxon__textlogo {
+        width: 300px;
+    }
+    .savodxon__textlogo__logo img {
+        width: 40px;
+    }
+    .savodxon__textlogo .savodxon__textlogo__savodxon img {
+        width: 60px;
+    }
+    .savodxon__text {
+        width: 300px;
+    }
+    .savodxon__text h3 {
+        font-size: 24px;
+    }
+    .savodxon__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .savodxon__puli h1 {
+        font-size: 25px;
+    }
+    .savodxon__puli a {
+        font-size: 15px;
+        padding: 12px;
+    }
+    .dizayn__textlogo {
+        width: 300px;
+    }
+    .dizayn__textlogo__logo img {
+        width: 40px;
+    }
+    .dizayn__textlogo .dizayn__textlogo__dizayn img {
+        width: 70px;
+    }
+    .dizayn__text {
+        width: 300px;
+    }
+    .dizayn__text h3 {
+        font-size: 24px;
+    }
+    .dizayn__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .dizayn__puli h1 {
+        font-size: 25px;
+    }
+    .dizayn__puli a {
+        font-size: 15px;
+        padding: 12px;
+    }
+    .frontend__textlogo {
+        width: 300px;
+    }
+    .frontend__textlogo__logo img {
+        width: 40px;
+    }
+    .frontend__textlogo__frontend {
+        top: -10px;
+        right: -20px;
+    }
+    .frontend__textlogo .frontend__textlogo__frontend img {
+        width: 70px;
+    }
+    .frontend__text {
+        width: 300px;
+    }
+    .frontend__text h3 {
+        font-size: 24px;
+    }
+    .frontend__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .frontend__puli h1 {
+        font-size: 25px;
+    }
+    .frontend__puli a {
+        font-size: 15px;
+        padding: 12px;
+    }
+    .backend__textlogo {
+        width: 300px;
+    }
+    .backend__textlogo__logo img {
+        width: 40px;
+    }
+    .backend__textlogo__backend {
+        top: -10px;
+        right: -18px;
+    }
+    .backend__textlogo .backend__textlogo__backend img {
+        width: 60px;
+    }
+    .backend__text {
+        width: 300px;
+    }
+    .backend__text h3 {
+        font-size: 24px;
+    }
+    .backend__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .backend__puli h1 {
+        font-size: 25px;
+    }
+    .backend__puli a {
+        font-size: 15px;
+        padding: 12px;
+    }
+    .java__textlogo {
+        width: 300px;
+    }
+    .java__textlogo__logo img {
+        width: 40px;
+    }
+    .java__textlogo__java {
+        top: -10px;
+        right: -18px;
+    }
+    .java__textlogo .java__textlogo__java img {
+        width: 70px;
+    }
+    .java__text {
+        width: 300px;
+    }
+    .java__text h3 {
+        font-size: 24px;
+    }
+    .java__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .java__puli h1 {
+        font-size: 25px;
+    }
+    .java__puli a {
+        font-size: 15px;
+        padding: 12px;
+    }
+    .robo__textlogo {
+        width: 300px;
+    }
+    .robo__textlogo__logo img {
+        width: 40px;
+    }
+    .robo__textlogo__robo {
+        top: -10px;
+        right: -20px;
+    }
+    .robo__textlogo .robo__textlogo__robo img {
+        width: 70px;
+    }
+    .robo__text {
+        width: 300px;
+    }
+    .robo__text h3 {
+        font-size: 24px;
+    }
+    .robo__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .robo__puli h1 {
+        font-size: 25px;
+    }
+    .robo__puli a {
+        font-size: 15px;
+        padding: 12px;
     }
 }
 
@@ -275,6 +552,192 @@
     }
     .kursturlari__2hover {
         display: none;
+    }
+    /* yonalish turlari */
+    .yonalishlar__texts h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .yonalishlar__texts p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .yonalish__turlari__blocks {
+        margin: 0;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .yonalish__savodxon,
+    .yonalish__dizayn,
+    .yonalish__frontend,
+    .yonalish__backend,
+    .yonalish__java,
+    .yonalish__robo {
+        width: 80%;
+        height: 230px;
+        margin: 10px;
+    }
+    .savodxon__textlogo {
+        width: 90%;
+    }
+    .savodxon__textlogo__logo img {
+        width: 60px;
+    }
+    .savodxon__textlogo .savodxon__textlogo__savodxon img {
+        width: 80px;
+    }
+    .savodxon__text {
+        width: 100%;
+    }
+    .savodxon__text h3 {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .savodxon__text p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .savodxon__puli h1 {
+        font-size: 28px;
+    }
+    .savodxon__puli a {
+        font-size: 15px;
+        padding: 12px;
+    }
+    .dizayn__textlogo {
+        width: 90%;
+    }
+    .dizayn__textlogo__logo img {
+        width: 60px;
+    }
+    .dizayn__textlogo .dizayn__textlogo__dizayn img {
+        width: 80px;
+    }
+    .dizayn__text {
+        width: 100%;
+    }
+    .dizayn__text h3 {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .dizayn__text p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .dizayn__puli h1 {
+        font-size: 28px;
+    }
+    .dizayn__puli a {
+        font-size: 15px;
+        padding: 12px;
+    }
+    .frontend__textlogo {
+        width: 90%;
+    }
+    .frontend__textlogo__logo img {
+        width: 60px;
+    }
+    .frontend__textlogo .frontend__textlogo__frontend img {
+        width: 80px;
+    }
+    .frontend__text {
+        width: 100%;
+    }
+    .frontend__text h3 {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .frontend__text p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .frontend__puli h1 {
+        font-size: 28px;
+    }
+    .frontend__puli a {
+        font-size: 15px;
+        padding: 12px;
+    }
+    .backend__textlogo {
+        width: 90%;
+    }
+    .backend__textlogo__logo img {
+        width: 60px;
+    }
+    .backend__textlogo .backend__textlogo__backend img {
+        width: 70px;
+    }
+    .backend__text {
+        width: 100%;
+    }
+    .backend__text h3 {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .backend__text p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .backend__puli h1 {
+        font-size: 28px;
+    }
+    .backend__puli a {
+        font-size: 15px;
+        padding: 12px;
+    }
+    .java__textlogo {
+        width: 90%;
+    }
+    .java__textlogo__logo img {
+        width: 60px;
+    }
+    .java__textlogo .java__textlogo__java img {
+        width: 80px;
+    }
+    .java__text {
+        width: 100%;
+    }
+    .java__text h3 {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .java__text p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .java__puli h1 {
+        font-size: 28px;
+    }
+    .java__puli a {
+        font-size: 15px;
+        padding: 12px;
+    }
+    .robo__textlogo {
+        width: 90%;
+    }
+    .robo__textlogo__logo img {
+        width: 60px;
+    }
+    .robo__textlogo .robo__textlogo__robo img {
+        width: 80px;
+    }
+    .robo__text {
+        width: 100%;
+    }
+    .robo__text h3 {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .robo__text p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .robo__puli h1 {
+        font-size: 28px;
+    }
+    .robo__puli a {
+        font-size: 15px;
+        padding: 12px;
     }
 }
 
@@ -464,5 +927,191 @@
     }
     .kursturlari__2hover {
         display: none;
+    }
+    /* yonalish turlari */
+    .yonalishlar__texts h1 {
+        font-size: 27px;
+        line-height: 45px;
+    }
+    .yonalishlar__texts p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .yonalish__turlari__blocks {
+        margin: 0;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .yonalish__savodxon,
+    .yonalish__dizayn,
+    .yonalish__frontend,
+    .yonalish__backend,
+    .yonalish__java,
+    .yonalish__robo {
+        width: 80%;
+        height: 200px;
+        margin: 10px;
+    }
+    .savodxon__textlogo {
+        width: 90%;
+    }
+    .savodxon__textlogo__logo img {
+        width: 30px;
+    }
+    .savodxon__textlogo .savodxon__textlogo__savodxon img {
+        width: 50px;
+    }
+    .savodxon__text {
+        width: 90%;
+    }
+    .savodxon__text h3 {
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .savodxon__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .savodxon__puli h1 {
+        font-size: 21px;
+    }
+    .savodxon__puli a {
+        font-size: 11px;
+        padding: 7px;
+    }
+    .dizayn__textlogo {
+        width: 90%;
+    }
+    .dizayn__textlogo__logo img {
+        width: 30px;
+    }
+    .dizayn__textlogo .dizayn__textlogo__dizayn img {
+        width: 60px;
+    }
+    .dizayn__text {
+        width: 90%;
+    }
+    .dizayn__text h3 {
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .dizayn__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .dizayn__puli h1 {
+        font-size: 21px;
+    }
+    .dizayn__puli a {
+        font-size: 11px;
+        padding: 7px;
+    }
+    .frontend__textlogo {
+        width: 90%;
+    }
+    .frontend__textlogo__logo img {
+        width: 30px;
+    }
+    .frontend__textlogo .frontend__textlogo__frontend img {
+        width: 60px;
+    }
+    .frontend__text {
+        width: 90%;
+    }
+    .frontend__text h3 {
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .frontend__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .frontend__puli h1 {
+        font-size: 21px;
+    }
+    .frontend__puli a {
+        font-size: 11px;
+        padding: 7px;
+    }
+    .backend__textlogo {
+        width: 90%;
+    }
+    .backend__textlogo__logo img {
+        width: 30px;
+    }
+    .backend__textlogo .backend__textlogo__backend img {
+        width: 50px;
+    }
+    .backend__text {
+        width: 90%;
+    }
+    .backend__text h3 {
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .backend__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .backend__puli h1 {
+        font-size: 21px;
+    }
+    .backend__puli a {
+        font-size: 11px;
+        padding: 7px;
+    }
+    .java__textlogo {
+        width: 90%;
+    }
+    .java__textlogo__logo img {
+        width: 30px;
+    }
+    .java__textlogo .java__textlogo__java img {
+        width: 60px;
+    }
+    .java__text {
+        width: 90%;
+    }
+    .java__text h3 {
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .java__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .java__puli h1 {
+        font-size: 21px;
+    }
+    .java__puli a {
+        font-size: 11px;
+        padding: 7px;
+    }
+    .robo__textlogo {
+        width: 90%;
+    }
+    .robo__textlogo__logo img {
+        width: 30px;
+    }
+    .robo__textlogo .robo__textlogo__robo img {
+        width: 60px;
+    }
+    .robo__text {
+        width: 90%;
+    }
+    .robo__text h3 {
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .robo__text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .robo__puli h1 {
+        font-size: 21px;
+    }
+    .robo__puli a {
+        font-size: 11px;
+        padding: 7px;
     }
 }

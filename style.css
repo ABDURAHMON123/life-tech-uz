@@ -343,7 +343,7 @@ ul li a:hover {
 .kursturlari__1hover {
     width: 45%;
     height: 350px;
-    background-color: #ff1100;
+    background-color: greenyellow;
     transition: .5s ease-in-out;
     position: absolute;
     top: 0;
@@ -358,7 +358,7 @@ ul li a:hover {
 .kursturlari__2hover {
     width: 45%;
     height: 350px;
-    background-color: #ff1100;
+    background-color: greenyellow;
     transition: .5s ease-in-out;
     position: absolute;
     top: 0;
@@ -385,6 +385,831 @@ ul li a:hover {
     padding-left: 10px;
     letter-spacing: 0em;
     text-align: left;
-    color: white;
+    color: black;
     padding-top: 18px;
+}
+
+
+/* yonalishlar  */
+
+.yonalishlar__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #dfdfdf;
+    margin-top: 150px;
+}
+
+.yonalishlar__texts {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 30px 30px;
+}
+
+.yonalishlar__texts h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.yonalishlar__texts p {
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.yonalish__turlari__blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.yonalish__savodxon {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 0 15px 15px 50px;
+    border-radius: 20px;
+    transition: .5s ease-in-out;
+}
+
+.yonalish__savodxon:hover {
+    background-color: greenyellow;
+    transition: .5s ease;
+}
+
+.yonalish__img__savodxon img {
+    width: 80px;
+}
+
+.savodxon__text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.savodxon__textlogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    position: relative;
+}
+
+.savodxon__textlogo__logo img {
+    width: 50px;
+}
+
+.savodxon__textlogo__savodxon {
+    position: absolute;
+    right: -20px;
+}
+
+.savodxon__textlogo .savodxon__textlogo__savodxon img {
+    width: 80px;
+}
+
+.savodxon__text h3 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.savodxon__text p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.savodxon__puli {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.savodxon__puli h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+}
+
+.savodxon__puli a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ff3b2d;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.savodxon__puli a:hover {
+    background-color: gray;
+}
+
+.yonalish__dizayn {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 0 50px 15px 15px;
+    border-radius: 20px;
+    transition: .5s ease-in-out;
+}
+
+.yonalish__dizayn:hover {
+    background-color: greenyellow;
+    transition: .5s ease;
+}
+
+.yonalish__img__dizayn img {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+
+.dizayn__text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.dizayn__textlogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    position: relative;
+}
+
+.dizayn__textlogo__logo img {
+    width: 50px;
+}
+
+.dizayn__textlogo__dizayn {
+    position: absolute;
+    right: -20px;
+}
+
+.dizayn__textlogo .dizayn__textlogo__dizayn img {
+    width: 100px;
+}
+
+.dizayn__text h3 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.dizayn__text p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.dizayn__puli {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.dizayn__puli h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+}
+
+.dizayn__puli a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ff3b2d;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.dizayn__puli a:hover {
+    background-color: gray;
+}
+
+.yonalish__frontend {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 0 15px 15px 50px;
+    border-radius: 20px;
+    transition: .5s ease-in-out;
+}
+
+.yonalish__frontend:hover {
+    background-color: greenyellow;
+    transition: .5s ease;
+}
+
+.yonalish__img__frontend img {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 450px;
+}
+
+.frontend__text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.frontend__textlogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    position: relative;
+}
+
+.frontend__textlogo__logo img {
+    width: 50px;
+}
+
+.frontend__textlogo__frontend {
+    position: absolute;
+    top: -15px;
+    right: -30px;
+}
+
+.frontend__textlogo .frontend__textlogo__frontend img {
+    width: 100px;
+}
+
+.frontend__text h3 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.frontend__text p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.frontend__puli {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.frontend__puli h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+}
+
+.frontend__puli a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ff3b2d;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.frontend__puli a:hover {
+    background-color: gray;
+}
+
+.yonalish__backend {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 0 50px 15px 15px;
+    border-radius: 20px;
+    transition: .5s ease-in-out;
+}
+
+.yonalish__backend:hover {
+    background-color: greenyellow;
+    transition: .5s ease;
+}
+
+.yonalish__img__backend img {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+
+.backend__text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.backend__textlogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    position: relative;
+}
+
+.backend__textlogo__logo img {
+    width: 50px;
+}
+
+.backend__textlogo__backend {
+    position: absolute;
+    top: -10px;
+    right: -20px;
+}
+
+.backend__textlogo .backend__textlogo__backend img {
+    width: 80px;
+}
+
+.backend__text h3 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.backend__text p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.backend__puli {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.backend__puli h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+}
+
+.backend__puli a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ff3b2d;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.backend__puli a:hover {
+    background-color: gray;
+}
+
+.yonalish__java {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 0 15px 15px 50px;
+    border-radius: 20px;
+    transition: .5s ease-in-out;
+}
+
+.yonalish__java:hover {
+    background-color: greenyellow;
+    transition: .5s ease;
+}
+
+.yonalish__img__java img {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 450px;
+}
+
+.java__text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.java__textlogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    position: relative;
+}
+
+.java__textlogo__logo img {
+    width: 50px;
+}
+
+.java__textlogo__java {
+    position: absolute;
+    top: -10px;
+    right: -30px;
+}
+
+.java__textlogo .java__textlogo__java img {
+    width: 90px;
+}
+
+.java__text h3 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.java__text p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.java__puli {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.java__puli h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+}
+
+.java__puli a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ff3b2d;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.java__puli a:hover {
+    background-color: gray;
+}
+
+.yonalish__robo {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 0 50px 15px 15px;
+    border-radius: 20px;
+    transition: .5s ease-in-out;
+}
+
+.yonalish__robo:hover {
+    background-color: greenyellow;
+    transition: .5s ease;
+}
+
+.yonalish__img__robo img {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    right: 70px;
+}
+
+.robo__text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.robo__textlogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    position: relative;
+}
+
+.robo__textlogo__logo img {
+    width: 50px;
+}
+
+.robo__textlogo__robo {
+    position: absolute;
+    top: -10px;
+    right: -30px;
+}
+
+.robo__textlogo .robo__textlogo__robo img {
+    width: 90px;
+}
+
+.robo__text h3 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.robo__text p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.robo__puli {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.robo__puli h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+}
+
+.robo__puli a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ff3b2d;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.robo__puli a:hover {
+    background-color: gray;
+}
+
+
+/* ---------------------------------------------------
+ustozlar block */
+
+.ustozlar__blocks {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ustozlar__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.ustozlar__header h3 {
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ustozlar__texts__block {
+    display: flex;
+    align-items: center;
+}
+
+.ustozlar__block {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.ustozlar__img__block {
+    display: flex;
+    align-items: center;
+}
+
+.ustozlar__img img {
+    border-radius: 100px;
+}
+
+.ustozlar__texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.ustozlar__ism h2 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ustozlar__ish h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ustozlar__ish p {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ustozlar__internet {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ustozlar__internet p {
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ustozlar__internet a {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: green;
 }
