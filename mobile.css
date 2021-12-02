@@ -135,6 +135,29 @@
     .robo__text p {
         font-size: 13px;
     }
+    /* ----------------------------------
+     ustozlar blocks 
+     -------------------------------------*/
+    .ustozlar__header h3 {
+        font-size: 50px;
+    }
+    .ustozlar__ism h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .ustozlar__ish p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .ustozlar__ish h3 {
+        font-size: 20px;
+    }
+    .ustozlar__internet p {
+        font-size: 19px;
+    }
+    .ustozlar__internet a {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 955.99px) and (min-width: 756px) {
@@ -381,6 +404,32 @@
     .robo__puli a {
         font-size: 15px;
         padding: 12px;
+    }
+    /* ----------------------------------
+     ustozlar blocks 
+     -------------------------------------*/
+    .ustozlar__header h3 {
+        font-size: 40px;
+    }
+    .ustozlar__img img {
+        width: 170px;
+    }
+    .ustozlar__ism h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .ustozlar__ish p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .ustozlar__ish h3 {
+        font-size: 17px;
+    }
+    .ustozlar__internet p {
+        font-size: 17px;
+    }
+    .ustozlar__internet a {
+        font-size: 13px;
     }
 }
 
@@ -738,6 +787,45 @@
     .robo__puli a {
         font-size: 15px;
         padding: 12px;
+    }
+    /* ----------------------------------
+     ustozlar blocks 
+     -------------------------------------*/
+    .ustozlar__blocks {
+        margin-top: 50px;
+    }
+    .ustozlar__header {
+        margin-bottom: 50px;
+    }
+    .ustozlar__header h3 {
+        font-size: 30px;
+    }
+    .ustozlar__img img {
+        width: 150px;
+    }
+    .ustozlar__texts__block {
+        width: 60%;
+    }
+    .ustozlar__ism h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .ustozlar__ish p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .ustozlar__ish h3 {
+        font-size: 15px;
+    }
+    .ustozlar__internet p {
+        font-size: 14px;
+    }
+    .ustozlar__internet a {
+        font-size: 12px;
+        padding-right: 30px;
+    }
+    .ustozlar__knopkalar p {
+        font-size: 16px;
     }
 }
 
@@ -1113,5 +1201,46 @@
     .robo__puli a {
         font-size: 11px;
         padding: 7px;
+    }
+    /* ----------------------------------
+     ustozlar blocks 
+     -------------------------------------*/
+    .ustozlar__blocks {
+        margin-top: 30px;
+    }
+    .ustozlar__header {
+        margin-bottom: 30px;
+    }
+    .ustozlar__header h3 {
+        font-size: 20px;
+    }
+    .ustozlar__img img {
+        width: 100px;
+    }
+    .ustozlar__texts__block {
+        width: 60%;
+    }
+    .ustozlar__ism h2 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .ustozlar__ish p {
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .ustozlar__ish h3 {
+        font-size: 12px;
+    }
+    .ustozlar__internet p {
+        font-size: 10px;
+    }
+    .ustozlar__internet a {
+        font-size: 8px;
+        padding-right: 10px;
+    }
+    .ustozlar__knopkalar p {
+        font-size: 10px;
+        padding: 1px 2px;
+        margin: 2px;
     }
 }
