@@ -1265,3 +1265,89 @@ ustozlar block */
 .ustozlar__knopkalar p:hover {
     background-color: greenyellow;
 }
+
+
+/* qoshilosh blocks
+========================================== */
+
+.qoshilish__blocks {
+    width: 100%;
+    height: 500px;
+    background-color: #f5f4f4;
+    background-image: url(images/Life\ tech\ mobile\ backround.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: repeat-x;
+}
+
+.qoshilish__block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.qoshilish__img {
+    display: flex;
+    align-items: center;
+}
+
+.qoshilish__img img {
+    width: 500px;
+}
+
+.qoshilish__texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qoshilish__texts h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.qoshilish__texts h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: red;
+}
+
+.qoshilish__texts p {
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.qoshilish__texts a {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: #ff1100;
+}
+
+.qoshilish__texts a:hover {
+    background-color: gray;
+}
