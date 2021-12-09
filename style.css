@@ -1278,6 +1278,7 @@ ustozlar block */
     background-position: center;
     background-size: 70%;
     background-repeat: repeat-x;
+    margin-bottom: 150px;
 }
 
 .qoshilish__block {
@@ -1350,4 +1351,66 @@ ustozlar block */
 
 .qoshilish__texts a:hover {
     background-color: gray;
+}
+
+
+/* ichi korinish
+======================================= */
+
+.ichikorinish__blocks {
+    width: 100%;
+    background-color: #f5f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+.ichikorinish__header {
+    padding: 10px;
+    margin: 40px 0 20px 0;
+}
+
+.ichikorinish__header h1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ichikorinish__header p {
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.ichikorinish__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ichikorinish__img1,
+.ichikorinish__img2 {
+    display: flex;
+}
+
+.ichikorinish__block img {
+    width: 480px;
+    margin: 15px;
+    transition: 1s ease;
+}
+
+.ichikorinish__block img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    z-index: 100;
 }

@@ -169,6 +169,11 @@
     .qoshilish__texts h1 {
         font-size: 27px;
     }
+    /* ichi korinish
+    ============================ */
+    .ichikorinish__block img {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 955.99px) and (min-width: 756px) {
@@ -457,6 +462,17 @@
     }
     .qoshilish__texts h2 {
         font-size: 70px;
+    }
+    /* ichi korinish
+    ============================ */
+    .ichikorinish__header h1 {
+        font-size: 27px;
+    }
+    .ichikorinish__header p {
+        font-size: 14px;
+    }
+    .ichikorinish__block img {
+        width: 330px;
     }
 }
 
@@ -874,6 +890,29 @@
     .qoshilish__texts p {
         font-size: 8px;
         line-height: 50px;
+    }
+    /* ichi korinish
+    ============================ */
+    .ichikorinish__header {
+        padding: 7px;
+        margin: 10px 0 10px 0;
+    }
+    .ichikorinish__header h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .ichikorinish__header p {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .ichikorinish__img1,
+    .ichikorinish__img2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ichikorinish__block img {
+        width: 400px;
+        margin: 10px;
     }
 }
 
@@ -1315,5 +1354,28 @@
     .qoshilish__texts a {
         padding: 10px 15px;
         font-size: 12px;
+    }
+    /* ichi korinish
+    ============================ */
+    .ichikorinish__header {
+        padding: 7px;
+        margin: 10px 0 10px 0;
+    }
+    .ichikorinish__header h1 {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .ichikorinish__header p {
+        font-size: 9px;
+        line-height: 20px;
+    }
+    .ichikorinish__img1,
+    .ichikorinish__img2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ichikorinish__block img {
+        width: 250px;
+        margin: 10px;
     }
 }
