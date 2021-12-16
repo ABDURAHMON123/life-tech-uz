@@ -185,6 +185,25 @@
     .hamkorlik__imgs img {
         width: 150px;
     }
+    /* footer
+    ]======================================== */
+    .footer__left1,
+    .footer__left2,
+    .footer__right1,
+    .footer__right2,
+    .footer__right3 {
+        margin: 30px;
+    }
+    .footer__block h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .footer__block p {
+        font-size: 12px;
+    }
+    .footer__block a {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 955.99px) and (min-width: 756px) {
@@ -505,6 +524,26 @@
     }
     .hamkorlik__imgs img {
         width: 130px;
+    }
+    /* footer
+    ]======================================== */
+    .footer__left1,
+    .footer__left2,
+    .footer__right1,
+    .footer__right2,
+    .footer__right3 {
+        margin: 30px;
+    }
+    .footer__block h1 {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .footer__block p {
+        font-size: 11px;
+    }
+    .footer__block a {
+        font-size: 10px;
+        line-height: 20px;
     }
 }
 
@@ -970,6 +1009,32 @@
     }
     .hamkorlik__imgs img {
         width: 130px;
+    }
+    /* footer
+    ]======================================== */
+    .footer__texts {
+        flex-direction: column;
+    }
+    .footer__left {
+        justify-content: space-around;
+    }
+    .footer__left1,
+    .footer__left2,
+    .footer__right1,
+    .footer__right2,
+    .footer__right3 {
+        margin: 30px;
+    }
+    .footer__block h1 {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .footer__block p {
+        font-size: 11px;
+    }
+    .footer__block a {
+        font-size: 10px;
+        line-height: 20px;
     }
 }
 
@@ -1474,5 +1539,33 @@
     }
     .hamkorlik__imgs img {
         width: 130px;
+    }
+    /* footer
+    ]======================================== */
+    .footer__texts {
+        flex-direction: column;
+    }
+    .footer__left,
+    .footer__right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer__left1,
+    .footer__left2,
+    .footer__right1,
+    .footer__right2,
+    .footer__right3 {
+        margin: 15px;
+    }
+    .footer__block h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .footer__block p {
+        font-size: 11px;
+    }
+    .footer__block a {
+        font-size: 10px;
+        line-height: 20px;
     }
 }

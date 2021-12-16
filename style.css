@@ -299,7 +299,7 @@ ul li a:hover {
 .kursturlari__2 {
     width: 45%;
     height: 350px;
-    background-color: #dfdfdf;
+    background-color: #f5f4f4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -396,7 +396,7 @@ ul li a:hover {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #dfdfdf;
+    background-color: #f5f4f4;
     margin-top: 150px;
 }
 
@@ -1147,7 +1147,7 @@ ustozlar block */
 .ustozlar__block__kotta {
     display: flex;
     flex-direction: column;
-    background-color: #dfdfdf;
+    background-color: #f5f4f4;
     transition: .5s ease-in-out;
     transform: translateY(0);
 }
@@ -1157,7 +1157,7 @@ ustozlar block */
     height: 300px;
     display: flex;
     justify-content: space-around;
-    background-color: #dfdfdf;
+    background-color: #f5f4f4;
     border-radius: 5px;
 }
 
@@ -1423,6 +1423,7 @@ ustozlar block */
     width: 100%;
     background-color: #f5f4f4;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .hamkorlik__block {
@@ -1531,4 +1532,97 @@ ustozlar block */
 
 .register__hamkorlik h6:hover {
     background-color: #ff3b2d;
+}
+
+
+/* footer
+===================================== */
+
+.footer__blocks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+}
+
+.footer__block {
+    width: 100%;
+}
+
+.footer__texts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__block h1 {
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.footer__block p {
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f5f4f4;
+}
+
+.footer__block a {
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f5f4f4;
+}
+
+.footer__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__left1,
+.footer__left2 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.footer__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__right1,
+.footer__right2,
+.footer__right3 {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.footer__right3 img {
+    width: 100px;
+}
+
+.footer__bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
